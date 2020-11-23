@@ -1,10 +1,18 @@
 # Copyright 2020 Ubuntu
 # See LICENSE file for licensing details.
-name: mongo
-description: |
-  TODO: fill out the charm's description
-summary: |
-  TODO: fill out the charm's summary
-series: [kubernetes]
+name: wordpress
+maintainer: Nelson Gomez
+description: Wordpress CMS
+summary: The wordpress CMS
+series: [trusty]
+tags:
+  - cms
+subordinate: false
+provides:
+  website:
+    interface: http
+requires:
+  database:
+    interface: mysql
 
 

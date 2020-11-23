@@ -11,7 +11,7 @@ from ops.framework import StoredState
 logger = logging.getLogger(__name__)
 
 
-class MongoCharm(CharmBase):
+class WordpressCharm(CharmBase):
     _stored = StoredState()
 
     def __init__(self, *args):
@@ -35,4 +35,4 @@ class MongoCharm(CharmBase):
 
 
 if __name__ == "__main__":
-    main(MongoCharm)
+    main(WordpressCharm)

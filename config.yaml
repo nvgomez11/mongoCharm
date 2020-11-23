@@ -6,5 +6,5 @@
 options:
   thing:
     default: 🎁
-    description: A thing used by the charm.
+    description: Single mongoDB node
     type: string
