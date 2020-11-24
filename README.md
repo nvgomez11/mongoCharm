@@ -1,21 +1,19 @@
-# mongo
+# Wordpress
 
 ## Description
 
-TODO: Describe your charm in a few paragraphs of Markdown
+Charm for Wordpress CMS
 
 ## Usage
 
-TODO: Provide high-level usage, such as required config or relations
+`juju deploy mysql`
 
+`juju deploy wordpress`
 
-## Developing
+Add the relation
 
-Create and activate a virtualenv with the development requirements:
+`juju add-relation wordpress mysql`
 
-    virtualenv -p python3 venv
-    source venv/bin/activate
-    pip install -r requirements-dev.txt
 
 ## Testing
 

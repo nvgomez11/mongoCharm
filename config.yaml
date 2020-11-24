@@ -4,7 +4,12 @@
 # This is only an example, and you should edit to suit your needs.
 # If you don't need config, you can remove the file entirely.
 options:
-  thing:
-    default: 🎁
-    description: Single mongoDB node
+  tuning:
+    default: "bare"
+    description: There are three types of Wordpress setup, "bare", "single" and "optimazed". Bare will give you a nearly un-altered WordPress setup, as if you downloaded and set it up youreself. "Single" will provide you with everything you need to run a singular unit of Wordpress.
     type: string
+  wp-content:
+    type: string
+    default: ""
+    description: The full repository path to where the Wordpress wp-content can be found.
+
